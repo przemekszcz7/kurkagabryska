@@ -1,0 +1,2149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kurka Gabryśka – Gospodarstwo Swojskie Smaki</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Tradycyjne gospodarstwo ekologiczne premium. Świeże jaja z wolnego wybiegu, kozie mleko, sery rzemieślnicze, drób oraz domowe pierogi i uszka w Parzynowie." />
+  <meta name="keywords" content="Kurka Gabryśka, gospodarstwo Parzynów, swojskie smaki, świeże jaja, kozie mleko, sery kozie, domowe pierogi, ekologiczny drób, slow food polska" />
+  <meta name="author" content="Gospodarstwo Kurka Gabryśka" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kurka Gabryśka – Gospodarstwo Swojskie Smaki" />
+  <meta property="og:description" content="Poznaj smak prawdziwej wiejskiej tradycji prosto z Parzynowa. Świeże, naturalne produkty rzemieślnicze premium." />
+  <meta property="og:image" content="https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg" />
+  <meta property="og:url" content="https://www.facebook.com/profile.php?id=61584785166883" />
+
+  <!-- Google Fonts: Cormorant Garamond (Rustic Serif) & Plus Jakarta Sans (Elegant Sans-Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* CSS VARIABLES - CUSTOM NATURAL PALETTE */
+    :root {
+      --color-beige: #f5efe6;
+      --color-cream: #fffaf3;
+      --color-burgundy: #7a2e2e;
+      --color-burgundy-dark: #5c2020;
+      --color-burgundy-light: #f5eae8;
+      --color-dark: #2b1b14;
+      --color-green: #4a6b4f;
+      --color-green-dark: #37503b;
+      --color-green-light: #eff4ef;
+      --font-heading: 'Cormorant Garamond', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      --shadow-subtle: 0 4px 20px rgba(43, 27, 20, 0.03);
+      --shadow-medium: 0 12px 30px rgba(43, 27, 20, 0.06);
+      --shadow-large: 0 20px 50px rgba(43, 27, 20, 0.12);
+      --border-radius-sm: 8px;
+      --border-radius-md: 16px;
+      --border-radius-lg: 24px;
+    }
+
+    /* CSS RESET & GENERAL STYLES */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-dark);
+      background-color: var(--color-cream);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition-smooth);
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      line-height: 1.2;
+      color: var(--color-dark);
+    }
+
+    .section-title-wrapper {
+      text-align: center;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+
+    .section-subtitle {
+      font-family: var(--font-body);
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      color: var(--color-green);
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: var(--color-burgundy);
+      margin: 1.25rem auto 0 auto;
+      border-radius: 2px;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: var(--border-radius-sm);
+      transition: var(--transition-smooth);
+      cursor: pointer;
+      border: 2px solid transparent;
+      gap: 0.5rem;
+    }
+
+    .btn-solid-burgundy {
+      background-color: var(--color-burgundy);
+      color: #fff;
+    }
+
+    .btn-solid-burgundy:hover {
+      background-color: var(--color-burgundy-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(122, 46, 46, 0.2);
+    }
+
+    .btn-outline-beige {
+      border-color: #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .btn-outline-beige:hover {
+      background-color: #fff;
+      color: var(--color-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+    }
+
+    .btn-outline-burgundy {
+      border-color: var(--color-burgundy);
+      color: var(--color-burgundy);
+      background-color: transparent;
+    }
+
+    .btn-outline-burgundy:hover {
+      background-color: var(--color-burgundy);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(122, 46, 46, 0.15);
+    }
+
+    /* STICKY HEADER & NAVIGATION */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(255, 250, 243, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(43, 27, 20, 0.06);
+      transition: var(--transition-smooth);
+    }
+
+    .nav-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .logo-img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--color-burgundy);
+    }
+
+    .logo-text {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--color-dark);
+      letter-spacing: 0.5px;
+    }
+
+    .logo-sub {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--color-green);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: -2px;
+    }
+
+    /* Nav items list */
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 1.75rem;
+    }
+
+    .nav-item a {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--color-dark);
+      position: relative;
+      padding: 0.5rem 0;
+    }
+
+    .nav-item a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--color-burgundy);
+      transition: var(--transition-smooth);
+    }
+
+    .nav-item a:hover {
+      color: var(--color-burgundy);
+    }
+
+    .nav-item a:hover::after {
+      width: 100%;
+    }
+
+    /* CSS-Only Burger Menu using input-checkbox */
+    .nav-toggle-checkbox {
+      display: none;
+    }
+
+    .nav-toggle-label {
+      display: none;
+      cursor: pointer;
+      padding: 1rem;
+      z-index: 110;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      display: block;
+      background-color: var(--color-dark);
+      height: 2.5px;
+      width: 25px;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      content: "";
+      position: absolute;
+    }
+
+    .nav-toggle-label span::before {
+      top: -8px;
+    }
+
+    .nav-toggle-label span::after {
+      bottom: -8px;
+    }
+
+    /* 1. HERO SECTION */
+    .hero-section {
+      position: relative;
+      min-height: calc(100vh - 80px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url('https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Dark organic overlay */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle, rgba(43, 27, 20, 0.6) 0%, rgba(27, 17, 12, 0.85) 100%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      margin: 0 auto;
+      animation: heroFadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .hero-badge-logo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid var(--color-beige);
+      box-shadow: var(--shadow-large);
+      margin: 0 auto 2rem auto;
+      object-fit: cover;
+      animation: logoEntrance 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .hero-title-main {
+      font-size: 4.5rem;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-title-sub {
+      font-family: var(--font-body);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--color-beige);
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-bottom: 2rem;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-divider {
+      width: 80px;
+      height: 2px;
+      background-color: var(--color-burgundy);
+      margin: 0 auto 2rem auto;
+    }
+
+    .hero-description {
+      font-family: var(--font-heading);
+      font-style: italic;
+      font-size: 2rem;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1.4;
+      max-width: 700px;
+      margin: 0 auto 3rem auto;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-cta-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    /* Bouncing scroll indicator */
+    .hero-scroll-indicator {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      animation: bounce 2s infinite;
+      color: var(--color-beige);
+      opacity: 0.8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* 2. O NAS SECTION */
+    .o-nas-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-cream);
+    }
+
+    .o-nas-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .o-nas-text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .o-nas-heading {
+      font-size: 3rem;
+      color: var(--color-dark);
+      position: relative;
+    }
+
+    .o-nas-heading::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 2px;
+      background-color: var(--color-burgundy);
+      margin-top: 1rem;
+    }
+
+    .o-nas-paragraph {
+      font-size: 1.15rem;
+      color: var(--color-dark);
+      opacity: 0.9;
+      line-height: 1.75;
+    }
+
+    /* Grid of key products in O Nas */
+    .o-nas-mini-products {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .mini-product-card {
+      background-color: var(--color-beige);
+      padding: 1.25rem 1.75rem;
+      border-radius: var(--border-radius-md);
+      display: flex;
+      align-items: center;
+      transition: var(--transition-smooth);
+      border: 1px solid rgba(43, 27, 20, 0.05);
+      border-left: 4px solid var(--color-burgundy);
+    }
+
+    .mini-product-card:nth-child(even) {
+      border-left-color: var(--color-green);
+    }
+
+    .mini-product-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-subtle);
+      background-color: #fff;
+    }
+
+    .mini-product-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--color-dark);
+    }
+
+    /* Stylized visual card on the right */
+    .o-nas-visual-block {
+      position: relative;
+      border-radius: var(--border-radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-medium);
+      aspect-ratio: 4/5;
+      background: url('https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .o-nas-visual-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(43, 27, 20, 0.9) 0%, rgba(43, 27, 20, 0.2) 60%);
+    }
+
+    .o-nas-visual-content {
+      position: relative;
+      z-index: 2;
+      padding: 2.5rem;
+      color: #fff;
+    }
+
+    .o-nas-badge {
+      display: inline-block;
+      background-color: var(--color-burgundy);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 0.4rem 1rem;
+      border-radius: 50px;
+      margin-bottom: 1rem;
+    }
+
+    .o-nas-visual-title {
+      font-size: 2.2rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .o-nas-visual-desc {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      font-family: var(--font-body);
+    }
+
+    /* 3. NASZA OFERTA SECTION */
+    .oferta-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-beige);
+    }
+
+    .oferta-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .oferta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .oferta-card {
+      background-color: var(--color-cream);
+      border-radius: var(--border-radius-lg);
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(43, 27, 20, 0.04);
+      box-shadow: var(--shadow-subtle);
+    }
+
+    /* Aesthetic bottom highlight */
+    .oferta-card::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: var(--color-green);
+      transition: var(--transition-smooth);
+      transform: scaleX(0.1);
+      transform-origin: left;
+    }
+
+    .oferta-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-card-hover);
+    }
+
+    .oferta-card:hover::before {
+      transform: scaleX(1);
+      background-color: var(--color-burgundy);
+    }
+
+    .oferta-tag {
+      background-color: var(--color-green-light);
+      color: var(--color-green-dark);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 0.35rem 0.85rem;
+      border-radius: 50px;
+      margin-bottom: 1.5rem;
+      display: inline-block;
+    }
+
+    .oferta-card:nth-child(even) .oferta-tag {
+      background-color: var(--color-burgundy-light);
+      color: var(--color-burgundy);
+    }
+
+    .oferta-icon-box {
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 1.5rem;
+      transition: var(--transition-smooth);
+    }
+
+    .oferta-card:hover .oferta-icon-box {
+      transform: scale(1.1);
+    }
+
+    .oferta-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--color-dark);
+    }
+
+    .oferta-desc {
+      font-size: 0.95rem;
+      color: var(--color-dark);
+      opacity: 0.8;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .oferta-order-info {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--color-burgundy);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* 4. DOMOWE JEDZENIE (Storytelling Section) */
+    .domowe-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-cream);
+      position: relative;
+    }
+
+    .domowe-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background-color: var(--color-beige);
+      border-radius: var(--border-radius-lg);
+      padding: 4.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      box-shadow: var(--shadow-medium);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Top decorative corner pattern */
+    .domowe-container::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, var(--color-burgundy-light) 0%, transparent 70%);
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .domowe-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .domowe-subtitle {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--color-burgundy);
+      font-weight: 700;
+    }
+
+    .domowe-title {
+      font-size: 3.2rem;
+      color: var(--color-dark);
+      line-height: 1.15;
+    }
+
+    .domowe-story {
+      font-size: 1.1rem;
+      color: var(--color-dark);
+      opacity: 0.85;
+      line-height: 1.8;
+    }
+
+    .domowe-cta-block {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: var(--border-radius-md);
+      border-left: 4px solid var(--color-burgundy);
+      margin-top: 1rem;
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .domowe-cta-text {
+      font-size: 1.25rem;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      color: var(--color-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .domowe-cta-desc {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      margin-bottom: 1.25rem;
+    }
+
+    .domowe-cta-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* Menu on the right */
+    .domowe-menu-list {
+      background-color: #fff;
+      border-radius: var(--border-radius-md);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(43, 27, 20, 0.03);
+    }
+
+    .menu-list-title {
+      font-size: 1.6rem;
+      color: var(--color-burgundy);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--color-beige);
+      text-align: center;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 0;
+      border-bottom: 1px dashed rgba(43, 27, 20, 0.1);
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .menu-item-name {
+      font-weight: 600;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .menu-item-dot {
+      color: var(--color-green);
+    }
+
+    .menu-item-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      background-color: var(--color-green-light);
+      color: var(--color-green-dark);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* 5. HODOWLA I JAKOŚĆ SECTION */
+    .jakosc-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-beige);
+    }
+
+    .jakosc-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .jakosc-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .jakosc-card {
+      background-color: var(--color-cream);
+      border-radius: var(--border-radius-lg);
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(43, 27, 20, 0.03);
+      transition: var(--transition-smooth);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .jakosc-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+
+    /* Round Badges Gallery */
+    .badge-graphic {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: var(--color-green-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      transition: var(--transition-smooth);
+      border: 2px dashed var(--color-green);
+      position: relative;
+    }
+
+    .jakosc-card:nth-child(even) .badge-graphic {
+      background-color: var(--color-burgundy-light);
+      border-color: var(--color-burgundy);
+    }
+
+    .jakosc-card:hover .badge-graphic {
+      transform: scale(1.05) rotate(5deg);
+    }
+
+    .badge-icon {
+      font-size: 2.8rem;
+    }
+
+    .jakosc-card-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--color-dark);
+    }
+
+    .jakosc-card-desc {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      line-height: 1.6;
+    }
+
+    /* 6. DOSTAWA I ZAMÓWIENIA SECTION */
+    .dostawa-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-cream);
+    }
+
+    .dostawa-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .dostawa-visual {
+      background-color: var(--color-beige);
+      border-radius: var(--border-radius-lg);
+      padding: 3.5rem;
+      box-shadow: var(--shadow-medium);
+      border: 1px solid rgba(43, 27, 20, 0.04);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .dostawa-visual::after {
+      content: "";
+      position: absolute;
+      inset: 1rem;
+      border: 1px dashed rgba(43, 27, 20, 0.15);
+      border-radius: calc(var(--border-radius-lg) - 1rem);
+      pointer-events: none;
+    }
+
+    .dostawa-box-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .dostawa-visual-title {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .dostawa-visual-text {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Highlight badges in delivery container */
+    .dostawa-badges {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .dostawa-badge-item {
+      background-color: #fff;
+      padding: 1rem 1.25rem;
+      border-radius: var(--border-radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--color-dark);
+      border: 1px solid rgba(43, 27, 20, 0.05);
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .dostawa-badge-icon {
+      font-size: 1.4rem;
+    }
+
+    .dostawa-text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .dostawa-info-card {
+      background-color: #fff;
+      padding: 2.5rem;
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(43, 27, 20, 0.03);
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      transition: var(--transition-smooth);
+    }
+
+    .dostawa-info-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-medium);
+    }
+
+    .info-card-num {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--color-burgundy);
+      line-height: 1;
+      background-color: var(--color-burgundy-light);
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .dostawa-info-card:nth-child(even) .info-card-num {
+      color: var(--color-green);
+      background-color: var(--color-green-light);
+    }
+
+    .info-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .info-card-title {
+      font-family: var(--font-body);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--color-dark);
+    }
+
+    .info-card-desc {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      line-height: 1.6;
+    }
+
+    /* 7. MAP SECTION */
+    .map-section {
+      padding: 0;
+      background-color: var(--color-beige);
+      position: relative;
+    }
+
+    .map-container {
+      width: 100%;
+      height: 480px;
+      position: relative;
+      overflow: hidden;
+      display: block;
+      line-height: 0;
+      border-top: 2px solid rgba(43, 27, 20, 0.05);
+      border-bottom: 2px solid rgba(43, 27, 20, 0.05);
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      filter: grayscale(0.2) contrast(1.05);
+      transition: var(--transition-smooth);
+    }
+
+    .map-container iframe:hover {
+      filter: none;
+    }
+
+    /* Float card over map on desktop */
+    .map-floating-card {
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      background-color: #fff;
+      padding: 2.5rem;
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow-large);
+      z-index: 10;
+      max-width: 380px;
+      border: 1px solid rgba(43, 27, 20, 0.05);
+    }
+
+    .map-card-title {
+      font-size: 1.8rem;
+      color: var(--color-dark);
+      margin-bottom: 0.75rem;
+    }
+
+    .map-card-address {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+
+    .map-card-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-burgundy);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .map-card-action:hover {
+      color: var(--color-burgundy-dark);
+    }
+
+    /* 8. KONTAKT SECTION */
+    .kontakt-section {
+      padding: 8rem 2rem;
+      background-color: var(--color-beige);
+    }
+
+    .kontakt-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 5rem;
+    }
+
+    .kontakt-details-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    .kontakt-intro {
+      font-size: 1.15rem;
+      opacity: 0.85;
+      line-height: 1.7;
+    }
+
+    .kontakt-links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .kontakt-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.25rem;
+    }
+
+    .kontakt-icon-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(43, 27, 20, 0.04);
+      flex-shrink: 0;
+      color: var(--color-burgundy);
+    }
+
+    .kontakt-item-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kontakt-label {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-green);
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .kontakt-value {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--color-dark);
+    }
+
+    .kontakt-value a:hover {
+      color: var(--color-burgundy);
+    }
+
+    /* Contact interactive block on the right */
+    .kontakt-interactive-block {
+      background-color: var(--color-cream);
+      padding: 4rem;
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow-medium);
+      border: 1px solid rgba(43, 27, 20, 0.04);
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .kontakt-interactive-title {
+      font-size: 2.2rem;
+      color: var(--color-dark);
+      margin-bottom: -0.5rem;
+    }
+
+    .kontakt-interactive-desc {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.6;
+    }
+
+    /* Mega Call Button */
+    .mega-call-button {
+      background-color: var(--color-burgundy);
+      color: #fff;
+      padding: 1.5rem 2rem;
+      border-radius: var(--border-radius-md);
+      font-size: 1.5rem;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      transition: var(--transition-smooth);
+      box-shadow: 0 15px 30px rgba(122, 46, 46, 0.2);
+    }
+
+    .mega-call-button:hover {
+      background-color: var(--color-burgundy-dark);
+      transform: translateY(-3px);
+      box-shadow: 0 20px 40px rgba(122, 46, 46, 0.35);
+    }
+
+    .mega-call-icon {
+      font-size: 2rem;
+    }
+
+    .alternative-methods {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .alt-method-btn {
+      background-color: #fff;
+      padding: 1.1rem 1.5rem;
+      border-radius: var(--border-radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(43, 27, 20, 0.04);
+      color: var(--color-dark);
+    }
+
+    .alt-method-btn:hover {
+      background-color: var(--color-beige);
+      transform: translateY(-2px);
+    }
+
+    .alt-method-btn.facebook-btn {
+      background-color: #1877f2;
+      color: #fff;
+    }
+
+    .alt-method-btn.facebook-btn:hover {
+      background-color: #166fe5;
+      box-shadow: 0 8px 16px rgba(24, 119, 242, 0.2);
+    }
+
+    /* 9. FOOTER */
+    footer {
+      background-color: var(--color-dark);
+      color: var(--color-beige);
+      padding: 5rem 2rem 2.5rem 2rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 1fr;
+      gap: 4rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid rgba(245, 239, 230, 0.1);
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .footer-logo-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .footer-logo-img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--color-beige);
+    }
+
+    .footer-logo-text {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .footer-desc {
+      font-size: 0.9rem;
+      opacity: 0.75;
+      line-height: 1.6;
+    }
+
+    .footer-links-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .footer-title {
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-burgundy-light);
+      font-weight: 700;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .footer-links a {
+      font-size: 0.9rem;
+      opacity: 0.75;
+    }
+
+    .footer-links a:hover {
+      opacity: 1;
+      color: #fff;
+      padding-left: 0.25rem;
+    }
+
+    .footer-contact-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .footer-contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.75;
+    }
+
+    .footer-contact-list span {
+      display: block;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 2.5rem auto 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    .footer-social-meta {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .footer-social-meta a:hover {
+      color: #fff;
+      opacity: 1;
+    }
+
+    /* PURE CSS KEYFRAMES & TRANSITIONS */
+    @keyframes heroFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes logoEntrance {
+      0% {
+        opacity: 0;
+        transform: scale(0.85);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translate(-50%, 0);
+      }
+      40% {
+        transform: translate(-50%, -10px);
+      }
+      60% {
+        transform: translate(-50%, -5px);
+      }
+    }
+
+    /* RESPONSIVE DESIGN - MEDIA QUERIES (MOBILE-FIRST) */
+
+    /* Tablet breakpoint */
+    @media (max-width: 1024px) {
+      .section-title {
+        font-size: 2.5rem;
+      }
+
+      .o-nas-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+
+      .o-nas-visual-block {
+        aspect-ratio: 16/9;
+      }
+
+      .oferta-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+
+      .domowe-container {
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 3rem;
+      }
+
+      .jakosc-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+
+      .dostawa-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+
+      .kontakt-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+
+      .map-floating-card {
+        position: static;
+        max-width: 100%;
+        margin: 2rem;
+        box-shadow: var(--shadow-medium);
+      }
+    }
+
+    /* Mobile / Small screen breakpoint */
+    @media (max-width: 768px) {
+      /* Mobile Header menu with pure CSS Checkbox Hack */
+      .nav-toggle-label {
+        display: block;
+      }
+
+      .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-cream);
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1.5rem;
+        border-bottom: 2px solid var(--color-beige);
+        transform: translateY(-150%);
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--transition-smooth);
+        box-shadow: var(--shadow-medium);
+        z-index: 99;
+      }
+
+      .nav-item {
+        width: 100%;
+        text-align: center;
+      }
+
+      .nav-item a {
+        font-size: 1.25rem;
+        padding: 1rem;
+        display: block;
+      }
+
+      /* When checkbox is checked, show the navigation menu */
+      .nav-toggle-checkbox:checked ~ .nav-menu {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+
+      /* Turn burger icon into X */
+      .nav-toggle-checkbox:checked ~ .nav-toggle-label span {
+        background-color: transparent;
+      }
+
+      .nav-toggle-checkbox:checked ~ .nav-toggle-label span::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+
+      .nav-toggle-checkbox:checked ~ .nav-toggle-label span::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+      }
+
+      /* Sections padding reduction */
+      .o-nas-section, .oferta-section, .domowe-section, .jakosc-section, .dostawa-section, .kontakt-section {
+        padding: 5rem 1.25rem;
+      }
+
+      .hero-section {
+        padding: 4rem 1.25rem;
+      }
+
+      .hero-title-main {
+        font-size: 2.8rem;
+      }
+
+      .hero-title-sub {
+        font-size: 1.1rem;
+        letter-spacing: 3px;
+      }
+
+      .hero-description {
+        font-size: 1.4rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .o-nas-mini-products {
+        grid-template-columns: 1fr;
+      }
+
+      .oferta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .domowe-container {
+        padding: 2rem 1.5rem;
+      }
+
+      .domowe-title {
+        font-size: 2.2rem;
+      }
+
+      .jakosc-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .alternative-methods {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-link" id="logo-main">
+        <img class="logo-img" src="https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg" alt="Logo Kurka Gabryśka" />
+        <div>
+          <span class="logo-text">Kurka Gabryśka</span>
+          <span class="logo-sub">Swojskie Smaki</span>
+        </div>
+      </a>
+
+      <!-- Burger Menu Trigger Checkbox -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" />
+      
+      <!-- Burger Icon -->
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Otwórz menu">
+        <span></span>
+      </label>
+
+      <!-- Nav List -->
+      <ul class="nav-menu" id="navigation-list">
+        <li class="nav-item"><a href="#o-nas">O Nas</a></li>
+        <li class="nav-item"><a href="#oferta">Nasza Oferta</a></li>
+        <li class="nav-item"><a href="#domowe-jedzenie">Domowe Jedzenie</a></li>
+        <li class="nav-item"><a href="#hodowla-jakosc">Hodowla &amp; Jakość</a></li>
+        <li class="nav-item"><a href="#dostawa-zamowienia">Dostawa</a></li>
+        <li class="nav-item"><a href="#kontakt">Kontakt</a></li>
+        <li class="nav-item">
+          <a href="tel:663548841" class="btn btn-solid-burgundy" style="padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.85rem; color: #fff;">
+            Zadzwoń: 663 548 841
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img class="hero-badge-logo" src="https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg" alt="Logo Gospodarstwa Kurka Gabryśka" />
+        <h1 class="hero-title-main">Kurka Gabryśka</h1>
+        <div class="hero-title-sub">Gospodarstwo Swojskie Smaki</div>
+        <div class="hero-divider"></div>
+        <p class="hero-description">„Miejsce, gdzie zwierzęta są rodziną, a natura wyznacza rytm dnia.”</p>
+        <div class="hero-cta-group">
+          <a href="tel:663548841" class="btn btn-solid-burgundy">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Zadzwoń do nas
+          </a>
+          <a href="#oferta" class="btn btn-outline-beige">Nasza oferta</a>
+        </div>
+      </div>
+      <a href="#o-nas" class="hero-scroll-indicator" aria-label="Przewiń w dół">
+        <span>Odkryj więcej</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+      </a>
+    </section>
+
+    <!-- 2. O NAS SECTION -->
+    <section class="o-nas-section" id="o-nas">
+      <div class="o-nas-container">
+        
+        <div class="o-nas-text-block">
+          <span class="section-subtitle">Tradycja • Pasja • Rodzina</span>
+          <h2 class="o-nas-heading">O naszym gospodarstwie</h2>
+          <p class="o-nas-paragraph">
+            Nasze gospodarstwo to prawdziwy powrót do korzeni slow food. Położeni w malowniczym i czystym regionie Parzynowa, stworzyliśmy azyl, w którym najwyższym priorytetem jest szacunek do zwierząt i natury. 
+          </p>
+          <p class="o-nas-paragraph" style="margin-top: -0.5rem;">
+            Zwierzęta są u nas traktowane jak rodzina. Mają swobodny dostęp do słońca, czystego powietrza i soczystych pastwisk, co bezpośrednio przekłada się na niezrównany smak i pełnowartościowe właściwości odżywcze naszych produktów. Świeże jaja z wolnego wybiegu, zdrowe mleko kozie oraz domowe, ręcznie przygotowywane dania to gwarancja autentycznego, tradycyjnego smaku, którym dzielimy się z dumą.
+          </p>
+
+          <!-- Core Products list of cards -->
+          <div class="o-nas-mini-products">
+            <div class="mini-product-card" id="mini-egg">
+              <span class="mini-product-title">Świeże Jaja</span>
+            </div>
+            <div class="mini-product-card" id="mini-milk">
+              <span class="mini-product-title">Kozie Mleko</span>
+            </div>
+            <div class="mini-product-card" id="mini-cheese">
+              <span class="mini-product-title">Rzemieślnicze Sery</span>
+            </div>
+            <div class="mini-product-card" id="mini-poultry">
+              <span class="mini-product-title">Ekologiczny Drób</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="o-nas-visual-block" id="o-nas-visual">
+          <div class="o-nas-visual-overlay"></div>
+          <div class="o-nas-visual-content">
+            <span class="o-nas-badge">Gospodarstwo Premium</span>
+            <h3 class="o-nas-visual-title">Z serca Parzynowa</h3>
+            <p class="o-nas-visual-desc">Wszystko, co najlepsze z natury, dostarczane prosto pod Twoje drzwi w całej Polsce.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. NASZA OFERTA SECTION -->
+    <section class="oferta-section" id="oferta">
+      <div class="oferta-container">
+        
+        <div class="section-title-wrapper">
+          <span class="section-subtitle">Swojskie Specjały</span>
+           <div class="oferta-grid">
+          
+          <!-- Jaja świeże -->
+          <div class="oferta-card" id="card-jaja">
+            <div class="oferta-tag">Wolny Wybieg</div>
+            <div>
+              <h3 class="oferta-title">Jaja świeże</h3>
+              <p class="oferta-desc">Pozyskiwane każdego ranka od kur wolno wybiegowych. Nasze nioski żywią się wyłącznie naturalnymi, starannie skomponowanymi paszami bez sztucznych dodatków, co zapewnia wyjątkowy, głęboki smak żółtka.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Codzienny zbiór
+            </div>
+          </div>
+
+          <!-- Kozie mleko -->
+          <div class="oferta-card" id="card-mleko">
+            <div class="oferta-tag">100% Naturalne</div>
+            <div>
+              <h3 class="oferta-title">Kozie mleko</h3>
+              <p class="oferta-desc">Świeże, hipoalergiczne i pełne witamin mleko prosto od naszych kóz. Bogate w mikroelementy, łatwo przyswajalne, o niezwykle delikatnym smaku dzięki zrównoważonemu wypasowi na naturalnych pastwiskach.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Świeży udoj
+            </div>
+          </div>
+
+          <!-- Sery kozie -->
+          <div class="oferta-card" id="card-sery">
+            <div class="oferta-tag">Rzemiosło</div>
+            <div>
+              <h3 class="oferta-title">Sery kozie</h3>
+              <p class="oferta-desc">Sery podpuszczkowe, tradycyjne, warianty świeże oraz dojrzewające. Przygotowywane z czystego mleka koziego według tradycyjnych receptur rzemieślniczych – z dodatkiem świeżych ziół, czosnku niedźwiedziego lub klasyczne.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Własny wyrób
+            </div>
+          </div>
+
+          <!-- Drób (brojler, kaczki) -->
+          <div class="oferta-card" id="card-drob">
+            <div class="oferta-tag">Zdrowa Hodowla</div>
+            <div>
+              <h3 class="oferta-title">Drób (brojler, kaczki)</h3>
+              <p class="oferta-desc">Ptactwo hodowane w tradycyjny sposób z nieograniczonym dostępem do wybiegu zielonego. Wolny, zrównoważony wzrost bez antybiotyków i stymulatorów, gwarantujący zdrowe, soczyste i jędrne mięso o głębokim smaku.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Ekologiczny chów
+            </div>
+          </div>
+
+          <!-- Tuszki drobiu -->
+          <div class="oferta-card" id="card-tuszki">
+            <div class="oferta-tag">Najwyższa Świeżość</div>
+            <div>
+              <h3 class="oferta-title">Tuszki drobiu</h3>
+              <p class="oferta-desc">Świeżo przygotowane, doskonale oczyszczone i schłodzone tuszki kurczaków i kaczek. Idealna baza do niedzielnego, tradycyjnego rosołu lub pieczeni, która zachwyci całą Twoją rodzinę naturalnym aromatem.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Na zamówienie
+            </div>
+          </div>
+
+          <!-- Pierogi domowe -->
+          <div class="oferta-card" id="card-pierogi">
+            <div class="oferta-tag">Ręczna Robota</div>
+            <div>
+              <h3 class="oferta-title">Pierogi domowe</h3>
+              <p class="oferta-desc">Ręcznie lepione z cieniutkiego, aksamitnego ciasta. Farsze przygotowujemy ze świeżych składników z naszego gospodarstwa – od tradycyjnych ruskich, po mięsne, z kapustą i leśnymi grzybami, aż po opcje sezonowe.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Prawdziwy domowy smak
+            </div>
+          </div>
+
+          <!-- Krokiety -->
+          <div class="oferta-card" id="card-krokiety">
+            <div class="oferta-tag">Złociste &amp; Chrupiące</div>
+            <div>
+              <h3 class="oferta-title">Krokiety</h3>
+              <p class="oferta-desc">Tradycyjne polskie krokiety z bogatym, perfekcyjnie doprawionym farszem z kapusty i grzybów lub z delikatnym, duszonym mięsem. Otoczone chrupiącą, delikatną paniereczką, gotowe do podgrzania i serwowania.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Bez sztucznych dodatków
+            </div>
+          </div>
+
+          <!-- Uszka -->
+          <div class="oferta-card" id="card-uszka">
+            <div class="oferta-tag">Klasyka Gatunku</div>
+            <div>
+              <h3 class="oferta-title">Uszka</h3>
+              <p class="oferta-desc">Wyjątkowo malutkie, precyzyjnie formowane i ręcznie składane uszka z aromatycznym nadzieniem z suszonych grzybów leśnych i duszonej cebulki. Idealny, niezastąpiony dodatek do esencjonalnego czerwonego barszczu.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Tradycyjna receptura
+            </div>
+          </div>
+
+          <!-- Inne dania domowe -->
+          <div class="oferta-card" id="card-inne">
+            <div class="oferta-tag">Sezonowe Rarytasy</div>
+            <div>
+              <h3 class="oferta-title">Inne dania domowe</h3>
+              <p class="oferta-desc">Szeroki wybór wyrobów słoikowych, pieczeni, tradycyjnych pasztetów, swojskich kiełbas oraz zup przygotowywanych w oparciu o wiejskie składniki. Co tydzień nowe, ekscytujące menu oparte na bieżących zbiorach.</p>
+            </div>
+            <div class="oferta-order-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Sprawdź co przygotowaliśmy
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. DOMOWE JEDZENIE (Storytelling Section) -->
+    <section class="domowe-section" id="domowe-jedzenie">
+      <div class="domowe-container">
+        
+        <div class="domowe-content">
+          <span class="domowe-subtitle">Nasza Tradycyjna Kuchnia</span>
+          <h2 class="domowe-title">Prawdziwe smaki z babcinego pieca</h2>
+          <p class="domowe-story">
+            W naszej wiejskiej kuchni czas płynie inaczej. Nie uznajemy maszynowej produkcji, ulepszaczy smaku ani gotowych mieszanek. Każdy pieróg, krokiet i uszko wychodzące spod naszych rąk to małe kulinarne dzieło sztuki. 
+          </p>
+          <p class="domowe-story" style="margin-top: -0.5rem;">
+            Korzystamy wyłącznie z mąki z lokalnego młyna, świeżego nabiału oraz warzyw i ziół rosnących w naszym ekologicznym ogrodzie. Farsze przygotowujemy powoli, pozwalając aromatom ziół i leśnych grzybów naturalnie się połączyć. To właśnie ta uważność, cierpliwość oraz autentyczność sprawiają, że nasze potrawy smakują dokładnie tak, jak te zapamiętane z dzieciństwa u babci.
+          </p>
+          
+          <div class="domowe-cta-block">
+            <h4 class="domowe-cta-text">Masz wyjątkowe życzenia kulinarne?</h4>
+            <p class="domowe-cta-desc">Chętnie podejmujemy się zamówień indywidualnych na świąteczne stoły, uroczystości rodzinne lub po prostu na zapas do domowej zamrażarki.</p>
+            <div class="domowe-cta-buttons">
+              <a href="#kontakt" class="btn btn-solid-burgundy" style="padding: 0.85rem 1.5rem; font-size: 0.9rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                Złóż zamówienie
+              </a>
+              <a href="mailto:kurkagabryska@gmail.com" class="btn btn-outline-burgundy" style="padding: 0.85rem 1.5rem; font-size: 0.9rem;">Napisz do nas</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- 5. HODOWLA I JAKOŚĆ (Values Section) -->
+    <section class="jakosc-section" id="hodowla-jakosc">
+      <div class="jakosc-container">
+        
+        <div class="section-title-wrapper">
+          <span class="section-subtitle">Nasze Fundamenty</span>
+          <h2 class="section-title">Dlaczego nasza jakość jest wyjątkowa?</h2>
+        </div>
+
+        <div class="jakosc-grid">
+          
+          <!-- Naturalne żywienie -->
+          <div class="jakosc-card" id="val-1">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-green);"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 2 5.5a7 7 0 0 1-10 12.5z"/><path d="M19 2c-2.33 2.33-4.17 5.17-5.5 8.5"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Naturalne żywienie</h3>
+            <p class="jakosc-card-desc">Nasze zwierzęta karmione są wyłącznie naturalnymi paszami, świeżą trawą, koniczyną i ziołami rosnącymi na naszych łąkach. Bez pasz przemysłowych GMO.</p>
+          </div>
+
+          <!-- Brak chemii -->
+          <div class="jakosc-card" id="val-2">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-burgundy);"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 11 2 2 4-4"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Brak chemii</h3>
+            <p class="jakosc-card-desc">Absolutne zero sztucznych konserwantów, wzmacniaczy smaku, barwników, antybiotyków czy hormonów. Otrzymujesz produkt czysty i w pełni ekologiczny.</p>
+          </div>
+
+          <!-- Dobro zwierząt -->
+          <div class="jakosc-card" id="val-3">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-burgundy);"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Dobro zwierząt</h3>
+            <p class="jakosc-card-desc">Zwierzęta są u nas traktowane z miłością i szacunkiem. Dbamy o ich wysoki komfort psychiczny i fizyczny, wolny wybieg oraz bliskość z naturą.</p>
+          </div>
+
+          <!-- Ekologiczne podejście -->
+          <div class="jakosc-card" id="val-4">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-green);"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Ekologiczny chów</h3>
+            <p class="jakosc-card-desc">Gospodarujemy w harmonii z naturalnym cyklem biologicznym ziemi, kładąc olbrzymi nacisk na zrównoważony rozwój i ekologiczne tradycje rzemieślnicze.</p>
+          </div>
+
+          <!-- Świeżość -->
+          <div class="jakosc-card" id="val-5">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-green);"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Gwarancja świeżości</h3>
+            <p class="jakosc-card-desc">Zbiory i przygotowanie produktów odbywa się na bieżąco, tuż przed wysyłką. Nic u nas nie leży w magazynach – otrzymujesz produkt maksymalnie świeży.</p>
+          </div>
+
+          <!-- Bezpieczna dostawa -->
+          <div class="jakosc-card" id="val-6">
+            <div class="badge-graphic">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-burgundy);"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3 class="jakosc-card-title">Bezpieczna wysyłka</h3>
+            <p class="jakosc-card-desc">Wdrożyliśmy profesjonalne metody pakowania chroniące strukturę produktów i gwarantujące stabilność termiczną przez całą drogę transportu kurierskiego.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. DOSTAWA I ZAMÓWIENIA SECTION -->
+    <section class="dostawa-section" id="dostawa-zamowienia">
+      <div class="dostawa-container">
+        
+        <div class="dostawa-visual" id="delivery-visual-card">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-burgundy)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1.5rem;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          <h3 class="dostawa-visual-title">Bezpieczna Paczka</h3>
+          <p class="dostawa-visual-text">Opracowaliśmy system pakowania chroniący temperaturę produktów w drodze do Twojego domu.</p>
+          
+          <div class="dostawa-badges">
+            <div class="dostawa-badge-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-burgundy); flex-shrink: 0;"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              Wysyłka na cały kraj
+            </div>
+            <div class="dostawa-badge-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-green); flex-shrink: 0;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Bezpieczne pakowanie
+            </div>
+            <div class="dostawa-badge-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-burgundy); flex-shrink: 0;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Gwarancja świeżości
+            </div>
+          </div>
+        </div>
+
+        <div class="dostawa-text-block">
+          <span class="section-subtitle">Jak zamawiać?</span>
+          <h2 class="o-nas-heading" style="margin-bottom: 1rem;">Dostawa i realizacja zamówień</h2>
+          <p class="o-nas-paragraph" style="margin-bottom: 1rem;">
+            Zależy nam na tym, aby nasze wiejskie rarytasy trafiały do Twojej kuchni w nienaruszonym stanie, zachowując absolutną świeżość oraz pełne walory smakowe i zapachowe. Dbamy o to na każdym kroku logistycznym.
+          </p>
+
+          <div class="dostawa-info-card" id="step-1">
+            <span class="info-card-num">1</span>
+            <div class="info-card-content">
+              <h4 class="info-card-title">Złóż zamówienie telefonicznie lub mailowo</h4>
+              <p class="info-card-desc">Skontaktuj się z nami bezpośrednio dzwoniąc na numer <strong>663 548 841</strong> lub pisząc maila na adres <strong>kurkagabryska@gmail.com</strong>. Ustalimy dostępne produkty oraz czas realizacji.</p>
+            </div>
+          </div>
+
+          <div class="dostawa-info-card" id="step-2">
+            <span class="info-card-num">2</span>
+            <div class="info-card-content">
+              <h4 class="info-card-title">Pakowanie w ekologiczne termoboxy styropianowe</h4>
+              <p class="info-card-desc">Wszystkie produkty wymagające chłodzenia pakujemy w grube boxy styropianowe wypełnione specjalnymi, atestowanymi wkładami żelowymi, co gwarantuje stałą niską temperaturę przez 48 godzin.</p>
+            </div>
+          </div>
+
+          <div class="dostawa-info-card" id="step-3">
+            <span class="info-card-num">3</span>
+            <div class="info-card-content">
+              <h4 class="info-card-title">Ekspresowy transport kurierski na terenie Polski</h4>
+              <p class="info-card-desc">Korzystamy z zaufanych przewoźników realizujących dostawy w 24 godziny. Paczkę wysyłamy od poniedziałku do środy, aby nie ryzykować weekendowego przestoju w magazynie kuriera.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. MAP SECTION -->
+    <section class="map-section" id="lokalizacja">
+      <div class="map-container">
+        <!-- Google Maps Iframe styled elegantly -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.318531306065!2d17.914863812638046!3d51.37882351997003!2m3!1f0!2f0!2f0!3m3!1m2!1s0x471aa6c5bc93edab%3A0xb49728bef5b8d9b9!2sParzyn%C3%B3w%2041%2C%2063-507!5e0!3m2!1spl!2spl!4v1782896762999!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <!-- Floating overlay card over map -->
+        <div class="map-floating-card" id="map-overlay-card">
+          <span class="section-subtitle">Odwiedź nas osobiście</span>
+          <h3 class="map-card-title">Nasza lokalizacja</h3>
+          <p class="map-card-address">
+            <strong>Gospodarstwo Kurka Gabryśka</strong><br />
+            Parzynów 41<br />
+            63-507 Parzynów
+          </p>
+          <a href="https://maps.google.com/?q=Parzynów+41,+63-507+Parzynów" target="_blank" rel="noopener noreferrer" class="map-card-action">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+            Wyznacz trasę do nas
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. KONTAKT SECTION -->
+    <section class="kontakt-section" id="kontakt">
+      <div class="kontakt-container">
+        
+        <div class="kontakt-details-block">
+          <div>
+            <span class="section-subtitle">Porozmawiajmy</span>
+            <h2 class="o-nas-heading" style="margin-bottom: 1.5rem;">Skontaktuj się z nami</h2>
+            <p class="kontakt-intro">
+              Masz pytania dotyczące naszej oferty, chcesz zapytać o dostępność swojskich serów lub jajek, bądź złożyć zamówienie na rzemieślnicze pierogi? Jesteśmy do Twojej dyspozycji! Zadaj nam pytanie, a chętnie doradzimy i przygotujemy paczkę dla Ciebie.
+            </p>
+          </div>
+
+          <div class="kontakt-links-list">
+            
+            <!-- Telefon -->
+            <div class="kontakt-item">
+              <div class="kontakt-icon-circle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="kontakt-item-content">
+                <span class="kontakt-label">Zadzwoń do nas</span>
+                <span class="kontakt-value"><a href="tel:663548841">663 548 841</a></span>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="kontakt-item">
+              <div class="kontakt-icon-circle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="kontakt-item-content">
+                <span class="kontakt-label">Napisz e-mail</span>
+                <span class="kontakt-value"><a href="mailto:kurkagabryska@gmail.com">kurkagabryska@gmail.com</a></span>
+              </div>
+            </div>
+
+            <!-- Adres -->
+            <div class="kontakt-item">
+              <div class="kontakt-icon-circle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="kontakt-item-content">
+                <span class="kontakt-label">Adres gospodarstwa</span>
+                <span class="kontakt-value">Parzynów 41, 63-507 Parzynów</span>
+              </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="kontakt-item">
+              <div class="kontakt-icon-circle" style="color: #1877f2;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </div>
+              <div class="kontakt-item-content">
+                <span class="kontakt-label">Social Media</span>
+                <span class="kontakt-value"><a href="https://www.facebook.com/profile.php?id=61584785166883" target="_blank" rel="noopener noreferrer">Kurka Gabryśka na Facebooku</a></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="kontakt-interactive-block" id="kontakt-direct-card">
+          <span class="section-subtitle">Szybki kontakt</span>
+          <h3 class="kontakt-interactive-title">Złóż zamówienie teraz</h3>
+          <p class="kontakt-interactive-desc">Kliknij w poniższy przycisk, aby połączyć się z nami bezpośrednio przez telefon. Odbieramy codziennie w godzinach pracy gospodarstwa.</p>
+          
+          <a href="tel:663548841" class="mega-call-button" id="main-call-action">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mega-call-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>663 548 841</span>
+          </a>
+
+          <div style="margin: 0.5rem 0; font-size: 0.85rem; opacity: 0.6; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">lub napisz do nas bezpośrednio</div>
+
+          <div class="alternative-methods">
+            <a href="mailto:kurkagabryska@gmail.com" class="alt-method-btn" id="alt-email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              E-mail
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61584785166883" target="_blank" rel="noopener noreferrer" class="alt-method-btn facebook-btn" id="alt-facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      
+      <div class="footer-brand" id="footer-logo-block">
+        <a href="#" class="footer-logo-link">
+          <img class="footer-logo-img" src="https://i.ibb.co/CpxSZhxd/730695971-122134126017159505-7535546170212134822-n.jpg" alt="Logo stopki Kurka Gabryśka" />
+          <span class="footer-logo-text">Kurka Gabryśka</span>
+        </a>
+        <p class="footer-desc">
+          Ekskluzywne gospodarstwo ekologiczne z Parzynowa. Miejsce, w którym żyjemy w idealnej harmonii z naturą, dostarczając tradycyjne wyroby i autentyczne, naturalne smaki slow-food na polskie stoły.
+        </p>
+      </div>
+
+      <div class="footer-links-column" id="footer-nav-links">
+        <h4 class="footer-title">Nawigacja</h4>
+        <ul class="footer-links">
+          <li><a href="#o-nas">O nas</a></li>
+          <li><a href="#oferta">Nasza Oferta</a></li>
+          <li><a href="#domowe-jedzenie">Domowe jedzenie</a></li>
+          <li><a href="#hodowla-jakosc">Hodowla i jakość</a></li>
+          <li><a href="#dostawa-zamowienia">Dostawa</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-column" id="footer-contact-info">
+        <h4 class="footer-title">Dane Gospodarstwa</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <span>Adres</span>
+            Parzynów 41, 63-507 Parzynów
+          </li>
+          <li>
+            <span>Telefon</span>
+            <a href="tel:663548841" style="color: inherit;">663 548 841</a>
+          </li>
+          <li>
+            <span>E-mail</span>
+            <a href="mailto:kurkagabryska@gmail.com" style="color: inherit;">kurkagabryska@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; 2026 Kurka Gabryśka – Gospodarstwo Swojskie Smaki. Wszystkie prawa zastrzeżone.</div>
+      <div class="footer-social-meta">
+        <a href="https://www.facebook.com/profile.php?id=61584785166883" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź nas na Facebooku">Facebook</a>
+        <span>•</span>
+        <span>Naturalnie i Rzemieślniczo</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

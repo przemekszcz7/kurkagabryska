@@ -1,0 +1,6 @@
+{
+  "name": "Kurka Gabryśka",
+  "description": "Gospodarstwo Swojskie Smaki - Parzynów. Świeże jaja, kozie mleko, sery, drób i domowe jedzenie prosto z ekologicznego gospodarstwa premium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
