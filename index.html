@@ -1453,10 +1453,21 @@
         gap: 4rem;
       }
 
+      .map-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .map-container iframe {
+        height: 350px;
+      }
+
       .map-floating-card {
         position: static;
-        max-width: 100%;
-        margin: 2rem;
+        width: auto;
+        max-width: none;
+        margin: 1.5rem 1.25rem;
         box-shadow: var(--shadow-medium);
       }
     }
@@ -1522,6 +1533,40 @@
       /* Sections padding reduction */
       .o-nas-section, .oferta-section, .domowe-section, .jakosc-section, .dostawa-section, .kontakt-section {
         padding: 5rem 1.25rem;
+      }
+
+      html, body {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+      }
+
+      .kontakt-interactive-block {
+        padding: 2.5rem 1.25rem;
+      }
+
+      .mega-call-button {
+        font-size: 1.25rem;
+        padding: 1.1rem 1.5rem;
+      }
+
+      .mega-call-icon {
+        font-size: 1.6rem;
+      }
+
+      .dostawa-visual {
+        padding: 2rem 1.25rem;
+      }
+
+      .dostawa-info-card {
+        padding: 1.5rem 1.25rem;
+        gap: 1rem;
+      }
+
+      .info-card-num {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
       }
 
       .hero-section {
@@ -1690,7 +1735,9 @@
         
         <div class="section-title-wrapper">
           <span class="section-subtitle">Swojskie Specjały</span>
-           <div class="oferta-grid">
+        </div>
+
+        <div class="oferta-grid">
           
           <!-- Jaja świeże -->
           <div class="oferta-card" id="card-jaja">
